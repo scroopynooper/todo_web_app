@@ -1,7 +1,1 @@
-delete list
-nap
-gonna have issues
-not using pycharm
-hard code
-vscode vs pycharm
-battle 
+streamlit
