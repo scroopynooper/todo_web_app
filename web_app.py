@@ -14,7 +14,7 @@ def add_todo():
     functions.write_todos(todos)
 
 
-st.title("Shop List")
+st.title("Shopping List")
 st.subheader("No Side-Quests.")
 
 
@@ -27,7 +27,7 @@ for index, todo in enumerate(todos):
         del st.session_state[todo]
         st.rerun()
 
-st.write("Click box to remove ToDo.")
+st.write("Click box to remove item.")
 
 st.text_input(label="", placeholder="Add new todo...",
               on_change=add_todo, key='new_todo')
